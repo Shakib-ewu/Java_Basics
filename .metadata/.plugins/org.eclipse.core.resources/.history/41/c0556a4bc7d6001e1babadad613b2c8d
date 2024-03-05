@@ -1,0 +1,22 @@
+package day4;
+import java.util.Scanner;
+
+public class userInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ss=new Scanner(System.in);
+		System.out.println("Enter Name,Age,Slary:");
+		//String input
+		String name=ss.next();
+		//Numerical input
+		int age=ss.nextInt();
+		double salary=ss.nextDouble();
+		
+		System.out.println("Name: " + name);
+	    System.out.println("Age: " + age);
+	    System.out.println("Salary: " + salary);
+
+	}
+
+}
