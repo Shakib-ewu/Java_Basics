@@ -1,0 +1,32 @@
+package day6;
+
+import java.util.Scanner;
+
+public class Gre3Number {
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		try (Scanner assig = new Scanner(System.in)) {
+			System.out.print("1st number : ");
+			int num1= assig.nextInt();
+			System.out.print("2nd number : ");
+			int num2= assig.nextInt();
+			System.out.print("3rd number : ");
+			int num3= assig.nextInt();
+			
+			if (num1>=num2 && num1>=num3) {
+				System.out.println("1st is greatest: " +num1);
+			} else if(num2>=num1 && num2>=num3) {
+				System.out.println("2nd is greatest: " +num2);
+			}else
+			{
+				System.out.println("3rd is greatest: " +num3);
+			}
+			
+			
+		}
+
+
+	}
+
+}

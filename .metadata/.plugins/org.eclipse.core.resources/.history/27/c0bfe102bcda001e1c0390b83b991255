@@ -1,0 +1,14 @@
+package day6;
+
+import java.util.Scanner;
+
+public class oddOReven {
+
+	public static void main(String[] args) {
+		Scanner assig=new Scanner(System.in);
+		System.out.print("Enter any number :");
+		@SuppressWarnings("unused")
+		int num= assig.nextInt();
+	}
+
+}
