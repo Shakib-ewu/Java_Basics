@@ -1,0 +1,23 @@
+package day7;
+
+import java.util.Scanner;
+
+public class mulplicationTable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner value=new Scanner(System.in);
+		System.out.print("Enter any value:");
+		int num= value.nextInt();
+		for(int i=1;i<=10;i++) {
+			int result=num*i;
+			System.out.println("result is: " +result);
+			
+		}
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package day7;
+
+import java.util.Scanner;
+
+public class calCulator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner value=new Scanner(System.in);
+		System.out.print("Enter any value of x and y :");
+		double x= value.nextDouble();
+		double y= value.nextDouble();
+		float sum=subtract(12,12);
+		System.out.println(sum);
+
+	}
+	
+	public static float add(float x,float y) {
+		@SuppressWarnings("unused")
+		float result=x+y;
+		return result;
+		
+	}
+	public static float subtract(float x,float y) {
+		@SuppressWarnings("unused")
+		float result=x-y;
+		return result;
+
+}
+	public static float multiply(float x,float y) {
+		@SuppressWarnings("unused")
+		float result=x*y;
+		return result;
+		
+	}
+	public static float divide(float x,float y) {
+		@SuppressWarnings("unused")
+		float result=x/y;
+		return result;
+		
+	}
+	
+}

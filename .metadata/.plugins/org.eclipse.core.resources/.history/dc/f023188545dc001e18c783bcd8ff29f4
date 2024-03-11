@@ -1,0 +1,35 @@
+package day7;
+
+public class calCulator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static float add(float x,float y) {
+		@SuppressWarnings("unused")
+		float result=x+y;
+		return result;
+		
+	}
+	public static float subtract(float x,float y) {
+		@SuppressWarnings("unused")
+		float result1=x-y;
+		return result1;
+
+}
+	public static float multiply(float x,float y) {
+		@SuppressWarnings("unused")
+		float result2=x*y;
+		return result2;
+		
+	}
+	public static float divide(float x,float y) {
+		@SuppressWarnings("unused")
+		float result3=x/y;
+		return result3;
+		
+	}
+	
+}

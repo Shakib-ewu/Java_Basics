@@ -1,0 +1,28 @@
+package day7;
+
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		// write a function that calculates a factorial
+		
+		Scanner value = new Scanner(System.in) ;
+		System.out.print("Enter any value:");
+		int num= value.nextInt();
+		int fact=1;
+		factorial(fact);
+		
+		
+
+	}
+	
+	static int factorial(int num) {
+		for(int i=num;i>0;i++) {
+			int fact = num*i;
+		}
+		return num;
+		
+	}
+
+}
